@@ -203,13 +203,10 @@ button {
   }
   .footer {
     
-    background-color: #343a40;
+     background-color: #343a40;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
   }
   .footer p {
     margin-bottom: 0;
