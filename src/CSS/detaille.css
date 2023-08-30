@@ -1,0 +1,79 @@
+.article {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .details {
+    max-width: 800px;
+    width: 100%; 
+    text-align: left;
+  }
+  
+
+  @media (max-width: 768px) {
+    .details {
+      text-align: center; 
+    }
+    
+    .details img {
+      max-width: 100%; 
+      height: auto;
+    }
+  }
+  
+  
+
+
+
+
+  .contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-container {
+    max-width: 600px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+
+  .contact-content {
+    text-align: center;
+  }
+  
+  .contact-content img {
+    max-width: 200px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto; 
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .contact-container {
+      max-width: 90%; 
+    }
+    .contact-content h1 {
+      font-size: 17px; 
+      
+    }
+  }
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");  

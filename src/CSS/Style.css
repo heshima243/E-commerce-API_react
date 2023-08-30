@@ -1,0 +1,238 @@
+body {
+    padding-top: 70px; /* Pour compenser la hauteur de l'en-tête fixe */
+    background: #ccc;
+  }
+
+
+  .loading-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    height: 100vh; /* Hauteur de la vue à 100% pour centrer verticalement */
+  }
+  
+  .loading-text {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    animation: rotate 2s infinite linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+  
+  header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+
+  }
+.title{
+    color:  white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.title:hover{
+  color:  white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+.nav-lik{
+    color:  white;
+    font-size: 1.5rem;
+    font-weight: 700; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+ 
+
+.nav-lik:hover {
+    text-decoration: underline;
+    color: #eff3ec;
+    border-radius: 5px;
+  } 
+
+
+
+
+
+
+
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    border: 3px solid rgb(48, 75, 82); /* Bordure dorée */
+ 
+    color: rgb(19, 65, 80); /* Texte doré */
+    font-weight: bold; /* Police en gras */
+    padding: 15px 30px; /* Espacement interne (haut/bas, gauche/droite) */
+    border-radius: 10px; /* Coins arrondis */
+    
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transition fluide */
+    cursor: pointer; /* Curseur de souris pointer */
+    box-shadow: 0px 0px 15px rgba(21, 19, 9, 0.7); /* Ombre dorée */
+  }
+
+  .search-button {
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+
+
+
+  /* ... Votre code CSS existant ... */
+
+.products {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.products h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #61652e; /* Couleur du texte (vert) */
+    
+}
+.products h2:hover{
+    color: #2d601c;
+    text-decoration: none;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.product {
+    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Boîte d'ombre par défaut */
+
+  
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Boîte d'ombre au survol */
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product-button {
+    background-color: #e74c3c; /* Couleur du bouton (rouge) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-button:hover {
+    background-color: #c0392b; /* Couleur du bouton au survol (rouge plus foncé) */
+}
+
+.titre {
+    overflow: hidden; /* Empêche le texte de dépasser */
+    display: -webkit-box; /* Propriété spécifique à Webkit */
+    -webkit-line-clamp: 1; /* Limite le nombre de lignes à afficher */
+    -webkit-box-orient: vertical; /* Orientation verticale des lignes */
+    text-overflow: ellipsis; 
+}
+.titre:hover{
+    
+}
+/* ... Autres styles existants ... */
+
+
+/* ... (votre autre style CSS existant) ... */
+
+.price {
+    display: block;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.content {
+    flex: 1;
+  }
+  .footer {
+    
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .footer p {
+    margin-bottom: 0;
+  }
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .footer a:hover {
+    text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
