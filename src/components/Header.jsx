@@ -4,7 +4,7 @@ const Header = () => {
   return (
 
     <header>
-    <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dak">
       <div className="container">
      
         <Link className="title"  to="/">J-Store</Link>
