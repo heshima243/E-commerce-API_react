@@ -1,4 +1,5 @@
 const SearchBar = ({ searchProduct, handleSearch }) => {
+  window.scrollTo(0,0)
   return (
 
   

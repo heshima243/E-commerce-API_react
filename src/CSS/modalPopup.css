@@ -1,0 +1,48 @@
+/* Style pour la fenêtre modale */
+/* Style pour la fenêtre modale */
+.ReactModal__Content {
+  position: fixed; /* Position fixe pour centrer la fenêtre modale */
+  top: 50%; /* Déplace la fenêtre modale à 50% de la hauteur de la fenêtre du navigateur */
+  left: 50%; /* Déplace la fenêtre modale à 50% de la largeur de la fenêtre du navigateur */
+  transform: translate(-50%, -50%); /* Centre horizontalement et verticalement */
+  width: 300px; /* Largeur fixe de la fenêtre modale */
+  max-height: 200px; /* Hauteur maximale de la fenêtre modale */
+  margin: 0; /* Réinitialise les marges */
+  padding: 20px; /* Espacement interne */
+  text-align: center; /* Centrer le contenu textuel */
+  border: 2px solid #007bff; /* Bordure solide avec couleur */
+  border-radius: 4px; /* Coins arrondis */
+  background-color: #fff; /* Couleur de fond */
+  color: #333; /* Couleur du texte */
+  transition: all 0.3s ease; /* Effet de transition doux */
+}
+
+
+/* Style du titre */
+.ReactModal__Content h2 {
+  font-size: 18px; /* Taille de police du titre */
+  margin-bottom: 10px; /* Espacement inférieur du titre */
+}
+
+/* Style du texte */
+.ReactModal__Content p {
+  font-size: 16px; /* Taille de police du texte */
+  margin-bottom: 20px; /* Espacement inférieur du texte */
+}
+
+/* Style du bouton de fermeture */
+.ReactModal__Content button {
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  font-size: 16px; /* Taille de police du bouton */
+  padding: 10px 20px; /* Espacement interne du bouton */
+  border: none; /* Supprimer la bordure du bouton */
+  border-radius: 4px; /* Coins arrondis du bouton */
+  cursor: pointer; /* Curseur de type main pour indiquer un bouton cliquable */
+  transition: background-color 0.3s ease; /* Effet de transition sur la couleur de fond */
+}
+
+/* Style du bouton de fermeture au survol */
+.ReactModal__Content button:hover {
+  background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}

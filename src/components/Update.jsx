@@ -12,6 +12,8 @@ const Update = () => {
     error,
   } = useFetch("https://fakestoreapi.com/products/" + id);
 
+  window.scrollTo(0,0)
+
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
