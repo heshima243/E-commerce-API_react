@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const useFetch = (API_URL) => {
 
-    const [data, setData] = useState('');
+    const [data, setData] = useState(null); // Initialisez data à null
     const [isloading, setIsloading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -18,17 +18,16 @@ const useFetch = (API_URL) => {
           .then((data) => {
             setData(data);
             setIsloading(false);
-            setError(null)
+            setError(null);
           })
           .catch((error) => {
-            
-            setError(error.message)
-            setIsloading(false)
+            setError(error.message);
+            setIsloading(false);
             console.error(error.message);
           });
       }, [API_URL]);
 
-      return {data,isloading,error}
+      return { data, isloading, error };
 }
  
 export default useFetch;

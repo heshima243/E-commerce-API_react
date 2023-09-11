@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 
-window.scrollTo(0,0)
+
 
 const Contact = () => {
+  window.scrollTo(0,0)
+  
     return ( 
       <div className="contact-page">
       <div className="contact-container">
