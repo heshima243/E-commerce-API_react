@@ -26,16 +26,12 @@ const ProductDetail = () => {
           return res.json();
         })
         .then((data) => {
-          // Mettez à jour productData avec les nouvelles données
-          // Assurez-vous de ne pas entrer dans une boucle infinie ici
-          // en supprimant le deuxième argument de useEffect ou en utilisant une autre condition
-          // pour ne déclencher la requête qu'une seule fois
-          // Une fois les données chargées, elles seront gérées par useFetch
-          // Si nécessaire, vous pouvez également gérer l'erreur ici
+        
           setNewProductData(data);
         })
         .catch((error) => {
           console.error(error.message);
+          console.log("erreur d'actualise le page");
           // Gérez l'erreur ici si nécessaire
         });
     }
